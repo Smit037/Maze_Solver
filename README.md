@@ -1,17 +1,17 @@
 # Maze Solver
-##Description 
+## Description 
 - This project uses the Wall Follower algorithm to solve a Simply Connected Maze on a Gazebo environment using Robot Operating System (ROS) using the sahayak robot.
 
-##Tools used 
+## Tools used 
 - Ubuntu, ROS, Gazebo.
 
-##Algorithm 
+## Algorithm 
 - The Wall Follower algorithm follows a particular wall (right or left) until it reaches the end of the maze. 
 
-##Environment 
+## Environment 
 - Gazebo provides an ideal environment where we can launch the sahayak robot using the following command and build a maze using the building model editor option in gazebo.
 
 Type the following command in the terminal to launch sahayak in gazebo environment : roslaunch sahayak teleop.launch
 
-##Code 
+## Code 
 - Develop a node which subscribes values of the distances from neighbouring objects from laser/scan node and publishes the velocities to the nodes of the wheels.
