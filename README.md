@@ -1,3 +1,4 @@
+![GIF](https://user-images.githubusercontent.com/91662557/137117706-a665ca46-5b92-46c0-a31f-c21f3cda81f7.gif)
 # Maze Solver
 ## Description 
 - This project uses the Wall Follower algorithm to solve a Simply Connected Maze on a Gazebo environment using Robot Operating System (ROS) using the sahayak robot.
